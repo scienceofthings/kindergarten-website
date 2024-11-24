@@ -1,0 +1,19 @@
+{
+    "name": "gregorhyneck/kindergarten",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gregorhyneck\\Kindergarten\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregor Hyneck",
+            "email": "webmaster@sonnenschein-regentroepfchen.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "simplehtmldom/simplehtmldom": "dev-master"
+    }
+}
