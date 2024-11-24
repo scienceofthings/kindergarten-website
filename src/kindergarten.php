@@ -33,7 +33,7 @@ createHeading($html,'Angaben über die Personensorgeberechtigten', '[data-label=
 createHeading($html,'Person 2', '[data-label="Name"]', 2);
 createHeading($html,'Geschwister', '[data-label="Geschwister (Name und Geburtsdatum)"]', 0);
 
-$styles = $html->createTextNode('<style type="text/css">
+$styles = $html->createTextNode('<style>
         .contact-form-text-style-div:has(+ .contactFormResponseStatus.formSuccess) {
             display: none;
         }
